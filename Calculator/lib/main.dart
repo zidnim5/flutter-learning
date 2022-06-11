@@ -1,4 +1,4 @@
-import 'package:calculator/presentation/ui/dashboard.dart';
+import 'package:calculator/presentation/ui/theme_1_a.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: "Calculator",
       theme: ThemeData(primarySwatch: Colors.blueGrey),
-      home: Dashboard(),
+      home: Theme1a(),
     );
   }
 }
